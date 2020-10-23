@@ -1,0 +1,25 @@
+version: "3.3"
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+    - .:/var/www
+    ports:
+    - 8000:80
+    environment:
+      TZ: Europe/Moscow
+    links:
+      - mysql
+  mysql:
+    image: mysql:5.5.41
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: blog
+      MYSQL_USER: blog_user
+      MYSQL_PASSWORD: user_password
+      TZ: Europe/Moscow
+

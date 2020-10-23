@@ -1,0 +1,210 @@
+BODY { margin: 5px 0px; font-size: 1em; font-family: Trebuchet MS, Tahoma, Verdana, Arial, Sans-Serif, Monospace, Serif; text-align: center; }
+TABLE { border-collapse: collapse; margin: 0; padding: 0;}
+DIV { text-align: left; margin: 0px; padding: 0px; font-size: 1em; }
+H1, H2, H3, H4, H5, H6, P { margin: 0; padding: 0; }
+FORM { margin: 0; padding: 0; }
+INPUT, SELECT, TEXTAREA, LABEL { font-family: Trebuchet MS, Tahoma, Verdana, Arial, Sans-Serif, Monospace, Serif; }
+
+.break { clear: both; height: 5px; }
+.container { clear: both; margin: 5px; background-color: #FFFFFF;}
+#Main { width: 920px; padding: 10px; margin-left: auto; margin-right: auto; border: 1px solid #EDEDED; }
+#Header { background-color: #EDEDED; height: 150px; text-align: right; padding: 10px 10px 0px 10px; }
+#Header H1 A:link, #Header H1 A:visited { text-decoration: none; color: #666666; }
+#Header H1 A:hover, #Header H1 A:active { color: #0C83BD; }
+#Header H2 { font-size: 1.2em; font-weight: normal; color: #999999; }
+#Content {  }
+#C1 { float: left; width: 650px; b!ackground-color: #FF0066; }
+#C2 { float: left; width: 250px; b!ackground-color: #99CC33; }
+#Footer {border-top: 1px solid #dddddd; background-color: #DDDDDD; padding: 10px; }
+#Footer P {font-size: 0.65em; color: #666666; }
+
+.clearfix { margin: 0; padding: 0; overflow:hidden;_height:1%; }
+.clearfix:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+
+/* IMAGES */
+IMG.imgpostpic { margin: 5px; width: 150px; }
+IMG.imgpreavatar { width: 50px; height: 50px; }
+IMG.imguserpic { margin: 2px; width: 50px; height: auto; }
+
+/* Secondary Content */
+.block { border: 1px solid #EDEDED; }
+.block P { font-size: 0.75em; margin: 5px 10px; }
+UL.menu { list-style-type: none; margin: 5px 10px 5px 50px; padding: 0; }
+UL.menu LI { font-size: 0.7em; line-height: 1.5em; }
+UL.menu LI A:link, UL.menu LI A:visited { text-decoration: none; }
+UL.menu LI A:hover, UL.menu LI A:active {  }
+
+/* Blog Access */
+.blogaccess P.bookmarks { text-align: right; font-size: 0.7em;}
+.blogaccess UL { list-style-type: none; margin: 5px 10px 5px 25px; padding: 0;}
+.blogaccess UL LI { font-size: 0.8em;}
+.blogaccess DL { margin: 5px 0px; padding: 0; }
+.blogaccess DL DT { font-size: 0.8em; font-weight: bold; margin: 0px 10px 0px 25px; padding: 0px; }
+.blogaccess DL DD { font-size: 0.8em; font-weight: normal; margin: 0px 10px 0px 50px; padding: 0px; }
+
+
+
+/* Calendar */
+TABLE.calendar { width: 88%; max-width: 240px; margin-left: auto; margin-right: auto; border-collapse: collapse; border: 1px solid #0C83BD; }
+TABLE.calendar TD { width: 11%; border: 1px solid #DDDDDD; text-align: center; padding: 0px 5px; font-size: 0.75em;}
+TABLE.calendar TH { width: 11%; border: 1px solid #0C83BD; font-size: 0.75em; font-weight: bold;}
+TABLE.calendar TD.linked {background-color: #C4E8F6; }
+TABLE.calendar TD.linked A:link, TABLE.calendar TD.linked A:visited { text-decoration: none; font-weight: bold; color: #0C83BD; }
+TABLE.calendar TD.linked A:hover, TABLE.calendar TD.linked A:active { color: #000000; }
+
+/* TEXT STYLES */
+.text P { font-size: 1em; color: #000000; }
+.text P A:link { text-decoration: underline; color: inherit; }
+.text P A:visited { color: #666666; }
+.text P A:hover, .text P A:active { color: #000000; }
+.text BLOCKQUOTE { margin: 5px 10px; padding: 10px; border: 1px solid #EDEDED; }
+
+.text UL { margin: 5px auto; }
+.text UL LI { margin: 0; padding: 0; }
+
+.text OL { margin: 5px auto; }
+.text OL LI { margin: 0; padding: 0; }
+
+/* LINK STYLES */
+A.userlink:link, A.userlink:visited { text-decoration: none; color: #666666; font-weight: bold; }
+A.userlink:hover, A.userlink:active { color: #000000; }
+
+A.actionlink:link, A.actionlink:visited { text-decoration: underline; color: #666666; font-weight: normal; }
+A.actionlink:hover, A.actionlink:active { color: #000000; }
+
+A.menulink:link, A.menulink:visited { text-decoration: underline; color: #666666; font-weight: normal; }
+A.menulink:hover, A.menulink:active { color: #000000; }
+
+A.navilink:link, A.navilink:visited { text-decoration: underline; color: #2A2A2A; font-weight: normal; }
+A.navilink:hover, A.navilink:active { color: #0C83BD; }
+
+/* POST STYLE */
+.post { margin: 5px 0px; }
+.post H1 { padding: 10px 0px 0px 0px; font-size: 1.4em; font-weight: normal; color: #666666; }
+.post P { font-size: 1em; font-weight: normal; color: #000000; }
+
+.postpic { float: left; }
+.imagecontainer { background-color: #FFFFFF; border: 1px solid #666666; }
+
+.postinfo { padding: 5px; background-color: #FFFFFF; }
+.postinfo P { font-size: 0.75em; }
+
+.postaction { padding: 5px; background-color: #FFFFFF; border-top: 1px solid #EDEDED; }
+.postaction P { text-align: right; font-size: 0.7em; }
+
+.post .text { font-size: 0.8em; }
+
+.blockr { margin: 0; padding: 10px; background-color: #FFFFFF; }
+
+.systemmessage { border: 1px solid #EDEDED; padding: 10px; }
+.systemmessage P { font-size: 0.8em; color: #Cd1414; text-align: center; }
+
+
+
+/* COMMENTS STYLE */
+.commentlist, .postlist, .draftlist { margin: 0; }
+.commentlist H1, .postlist H1, .draftlist H1 { padding: 10px 0px 0px 0px; font-size: 1.2em; font-weight: normal; color: #666666; }
+
+.commentlist .comment { margin: -1px 0px 0px 0px; border: 1px solid #EDEDED; }
+.commentlist .userpic, .postlist .userpic { float: left; margin: 0; }
+.commentlist .content, .postlist .content { margin: 0px 0px 0px 66px; }
+
+.commentinfo { padding: 0; }
+.commentinfo P { font-size: 0.7em; }
+.commentaction { padding: 0px 5px; border-top: 1px solid #EDEDED; }
+.commentaction P { text-align: right; font-size: 0.65em; }
+.commentlist .text { padding: 5px 0px; font-size: 0.8em;}
+
+.commentlist OL, .postlist OL { margin: 0; padding: 0; list-style: none; border: 1px solid #DDDDDD; border-bottom-width: 0px;}
+.commentlist OL LI, .postlist OL LI { border-bottom: 1px solid #DDDDDD;}
+.postlist OL {border-width: 0px;}
+.postlist OL LI H1 { fobt-size: 1em; border-bottom: 1px solid #EDEDED; }
+
+/* DRAFTS */
+.draftlist OL { margin: 0; padding: 0; list-style: none; border: 1px solid #DDDDDD; border-bottom-width: 0px; }
+.draftlist OL LI {border-bottom: 1px solid #DDDDDD; }
+.draftlist OL LI H1 { font-size: 0.8em; font-weight: bold; }
+.draftinfo { padding: 0px 10px; }
+.draftinfo P { font-size: 0.75em; text-indent: -100px; padding-left: 100px; }
+.draftactions { padding: 5px 10px; border-top: 1px solid #EDEDED; }
+.draftactions P {text-align: left; font-size: 0.65em;}
+
+/* FORM STYLE */
+.form { margin: 0; }
+.form H1 { padding: 10px 0px 0px 0px; font-size: 1.2em; font-weight: normal; color: #666666; }
+
+.formcontent { border: 1px solid #EDEDED; }
+.formcontent FIELDSET.regularfieldset { border-width: 0px; margin: 0px 10px; }
+.formcontent FIELDSET.regularfieldset LEGEND { margin: 5px 0px 0px 2px; font-size: 0.9em; font-weight: bold; color: #555555; border-bottom: 1px solid #DDDDDD; }
+.formcontent FIELDSET.regularfieldset UL { list-style-type: none; margin: 0; padding: 0; }
+.formcontent FIELDSET.regularfieldset UL LI { clear: both; margin-left: 150px; padding: 5px 0px; }
+.formcontent FIELDSET.regularfieldset UL LI LABEL { font-size: 0.8em; float: left; width: 140px; margin: 3px 0px 0px -150px; }
+.formcontent FIELDSET.regularfieldset UL LI INPUT.iText, .formcontent FIELDSET.regularfieldset UL LI INPUT.iSubmit, FIELDSET.regularfieldset UL LI SELECT { font-size: 0.8em; }
+.formcontent FIELDSET.regularfieldset UL LI TEXTAREA { font-size: 0.8em; }
+
+.hint { padding: 5px; margin: 5px 0px; border: 1px solid #DDDDDD; background-color: #EDEDED; }
+.hint P { font-size: 0.65em; }
+
+.formcontent FIELDSET.regularfieldset UL LI FIELDSET.joining { border-width: 0px; padding: 0; margin: 0;}
+.formcontent FIELDSET.regularfieldset UL LI FIELDSET.joining SPAN { font-size: 0.8em; vertical-align: middle; }
+
+.formcontent FIELDSET.regularfieldset UL LI FIELDSET.checkboxes { border-width: 0px; margin: 5px 10px; padding: 0; }
+.formcontent FIELDSET.regularfieldset UL LI FIELDSET.checkboxes UL { list-style-type: none; margin: 0; padding: 0; }
+.formcontent FIELDSET.regularfieldset UL LI FIELDSET.checkboxes UL LI { clear: both; text-align: left; line-height: 1em; margin: 0; padding: 5px 0px; padding-left: 25px; }
+.formcontent FIELDSET.regularfieldset UL LI FIELDSET.checkboxes UL LI INPUT.iCheck { float: left; margin-top: 3px; //margin: 0; //margin-top: -1px; margin-left: -25px; }
+.formcontent FIELDSET.regularfieldset UL LI FIELDSET.checkboxes UL LI LABEL { float: none; width: auto; display: block; line-height: auto; margin: 0; padding: 0; font-size: 0.8em; }
+
+
+FIELDSET.smallfieldset { border-width: 0px; padding: 5px 10px; }
+FIELDSET.smallfieldset UL { list-style-type: none; margin: 0; padding: 0; }
+FIELDSET.smallfieldset UL LI { }
+FIELDSET.smallfieldset UL LI LABEL { font-size: 0.75em; display: block; }
+FIELDSET.smallfieldset UL LI INPUT.iText { font-size: 0.75em; margin-left: 25px; width: 191px; }
+FIELDSET.smallfieldset UL LI P { text-align: center; }
+FIELDSET.smallfieldset UL LI P A:link, FIELDSET.smallfieldset UL LI P A:visited { text-decoration: underline; font-weight: normal; color: #2A2A2A; }
+FIELDSET.smallfieldset UL LI P A:hover, FIELDSET.smallfieldset UL LI P A:active { color: #0C83BD; }
+
+FIELDSET.catfieldset { border-width: 0px; padding: 5px 10px; }
+FIELDSET.catfieldset UL { list-style-type: none; margin: 0; padding: 0; }
+FIELDSET.catfieldset UL LI { }
+FIELDSET.catfieldset UL LI LABEL { font-size: 0.75em; }
+FIELDSET.catfieldset UL LI INPUT.iText { font-size: 0.75em; margin-left: 25px; width: 191px; }
+FIELDSET.catfieldset UL LI P { text-align: center; }
+FIELDSET.catfieldset UL LI P A:link, FIELDSET.catfieldset UL LI P A:visited { text-decoration: underline; font-weight: normal; color: #2A2A2A; }
+FIELDSET.catfieldset UL LI P A:hover, FIELDSET.catfieldset UL LI P A:active { color: #0C83BD; }
+
+FIELDSET.bbcodes { text-align: left; border-width: 0px; }
+INPUT.iBBcode { height: 25px; width: auto; }
+
+FIELDSET.postfieldset { border-width: 0px; margin: 0px 10px; }
+FIELDSET.postfieldset UL { list-style-type: none; margin: 0; padding: 0; }
+FIELDSET.postfieldset UL LI { margin: 0; padding: 5px 0px;}
+FIELDSET.postfieldset UL LI LABEL { font-size: 0.8em; }
+
+
+/* Navigation */
+.navigation { background-color: #EDEDED; padding: 5px 10px; }
+.navigation P { text-align: right; font-size: 0.75em; }
+.navigation P A:link {font-weight: bold; text-decoration: none; }
+
+/* New Posts */
+.newposts H1 { border-bottom: 1px solid #DDDDDD; font-size: 0.8em; padding: 5px 10px; color: #666666; }
+.newposts UL { list-style-type: none; margin: 5px 10px 10px 20px; padding: 0; }
+.newposts UL LI {font-size: 0.75em; }
+
+/* Profile View */
+.profileview H1 { padding: 10px 0px 0px 0px; font-size: 1.4em; font-weight: normal; color: #666666; }
+.profileview .text P { font-size: 0.8em; }
+.profileview .userpic { float: right; margin: 0; }
+
+/* User List */
+.userlist H1 { padding: 10px 0px 0px 0px; font-size: 1.2em; font-weight: normal; color: #666666; }
+.userlist TABLE { border-collapse: collapse;  border: 1px solid #EDEDED; }
+.userlist TABLE TR TD { padding: 2px 10px; font-size: 0.7em; border: 1px solid #EDEDED; }
+.userlist TABLE TR TH { padding: 5px 10px; font-size: 0.7em; font-weight: bold; border: 1px solid #DDDDDD; }

@@ -1,0 +1,1 @@
+<?php $dbhost = "mysql"; $dbname = "blog"; $dbuser = "blog_user"; $dbpass = "user_password"; $prefix = "cb_"; $dbc = mysql_connect($dbhost,$dbuser,$dbpass); mysql_select_db($dbname); ?>
